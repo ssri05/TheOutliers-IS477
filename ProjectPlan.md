@@ -1,6 +1,10 @@
 # Project Plan
 ## Overview
-## Team
+## Team Roles
+#### Sri
+#### Belle
+#### Lucia
+#### Yuxing
 ## Research/Business Question
 ## Datasets
 ## Timeline
