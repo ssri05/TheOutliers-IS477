@@ -12,10 +12,10 @@ We will use Python and pandas for data preparation and analysis. Our GitHub repo
 
 ## Team Roles
 
-- **Sri — Raw Data and Licensing:** 
-- **Belle — Data Cleaning:** 
-- **Lucia — Statistical Analysis:** 
-- **Yuxing — Modeling and Visualization:** 
+- **Sri — Raw Data and Licensing** 
+- **Belle — Data Cleaning** 
+- **Lucia — Statistical Analysis** 
+- **Yuxing — Modeling and Visualization** 
 
 ## Research/Business Question - Yuxing
 
