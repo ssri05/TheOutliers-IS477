@@ -6,7 +6,7 @@
 #### Lucia - Statistical Analysis
 #### Yuxing - Modeling and Visualization
 ## Research/Business Question - Yuxing
-## Datasets - Sri
+## Datasets - Lucia
 ## Timeline - Sri
-## Constraints - Lucia
+## Constraints - Sri
 ## Gaps - Belle
