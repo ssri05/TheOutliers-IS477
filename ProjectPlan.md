@@ -2,36 +2,38 @@
 
 ## Overview - Yuxing
 
-GDP growth, unemployment, and inflation describe different aspects of an economy. Looking at them together can help us understand how economic conditions change over time. This project will bring together three World Bank indicator datasets to examine these relationships, focusing on the United States and comparing it with Canada, the United Kingdom, Germany, and Japan. We plan to study 2000–2024, depending on data availability.
+This project will bring together World Bank data on GDP growth, unemployment, and consumer price inflation for 2023–2026. We will focus on the United States and compare it with Canada, the United Kingdom, Germany, and Japan. Looking at these indicators together will help us describe how economic conditions differ across the five countries during this period.
 
-Much of our work will involve preparing the datasets for analysis. We will first check their coverage, definitions, missing values, and consistency. We will then standardize country codes and years, reshape the tables, and combine the three indicators using country code and year. We will document our cleaning decisions and check that the integration preserves the original values without introducing duplicate or unmatched records.
+We will first check the available years, indicator definitions, and missing values in each dataset. Since some observations for the planned period may not be published, we will document the actual coverage and use matching years for comparisons. We will standardize country codes and years, reshape the tables, and join the three datasets using country code and year. After integration, we will check for duplicate records, unmatched records, and any changes to the original values.
 
-Using the combined data, we will create graphs showing changes over time and examine how GDP growth and inflation are associated with unemployment. The country comparisons will help us see whether patterns observed in the United States also appear elsewhere. These results will describe associations rather than demonstrate causation.
+Using Python and pandas, we will calculate descriptive statistics and create graphs to compare the countries and examine patterns among the three indicators. The short study period will limit what we can conclude, so our analysis will describe observed associations rather than establish causation.
 
-We will use Python and pandas for data preparation and analysis. Our GitHub repository will include the raw and cleaned data, source and license information, a data dictionary, quality checks, and instructions for reproducing the workflow.
+Our GitHub repository will contain the raw and cleaned data, source and license information, a data dictionary, quality checks, and instructions for reproducing the workflow.
 
 ## Team Roles
 
-- **Sri — Raw Data and Licensing** 
-- **Belle — Data Cleaning** 
-- **Lucia — Statistical Analysis** 
-- **Yuxing — Modeling and Visualization** 
+- **Sri — Raw Data and Licensing:** Acquire the three indicator datasets, preserve raw files, document sources and licensing conditions, calculate checksums, and profile data structure and coverage.
+- **Belle — Data Cleaning:** Assess data quality, standardize fields and data types, reshape the datasets, and document decisions about missing values and duplicate records.
+- **Lucia — Statistical Analysis:** Document the datasets, contribute to integration and validation, calculate descriptive statistics, and analyze relationships among the indicators.
+- **Yuxing — Modeling and Visualization:** Develop the project overview and research questions, create trend and comparison visualizations, and conduct exploratory modeling where supported by the available data.
+- **All Members:** Review integration and quality assessment results, document their contributions, and contribute to the final report and reproducibility checks.
+
 
 ## Research/Business Question - Yuxing
 
 Our main research question is:
 
-**How are annual GDP growth and consumer price inflation associated with unemployment in the United States from 2000 to 2024, and how do these patterns compare with Canada, the United Kingdom, Germany, and Japan?**
+**How do GDP growth, unemployment, and consumer price inflation compare across the United States, Canada, the United Kingdom, Germany, and Japan during the available years within 2023–2026, and how does the United States compare with the other four countries?**
 
 We will address three supporting questions:
 
-1. How have GDP growth, inflation, and unemployment changed over time in the United States?
-2. Within the United States, how is GDP growth associated with the annual percentage-point change in unemployment, and how is inflation associated with the unemployment rate?
-3. How do these trends and associations differ between the United States and the other four selected countries over the same period?
+1. How do GDP growth, unemployment, and inflation change in the United States during the available years?
+2. In years with comparable data, which countries have higher or lower GDP growth, unemployment, and inflation?
+3. Across the available country-year observations, what patterns appear between GDP growth and unemployment, and between inflation and unemployment?
 
-Each integrated record will represent one country in one year. We will use descriptive statistics, annual trend plots, scatterplots, and within-country correlations to answer these questions. Changes in unemployment will be calculated only when observations for consecutive years are available. Each analysis will report the number of usable observations and document exclusions caused by missing data.
+Each integrated record will represent one country in one year. We will use descriptive statistics, annual trend plots, country comparison charts, and scatterplots to answer these questions. Each comparison will use matching years and report the number of available observations.
 
-The proposed countries and years are subject to confirmation after initial data profiling. Our analysis will describe associations and will not establish causal relationships.
+Because the study covers a short period, the findings will describe the selected countries and years rather than establish long-term or causal relationships. Unpublished or missing observations, including any unavailable 2026 values, will remain missing and will not be treated as zero.
 
 ## Datasets - Lucia
 ## Timeline - Sri
