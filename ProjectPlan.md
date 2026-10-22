@@ -10,7 +10,7 @@ Using Python and pandas, we will calculate descriptive statistics and create gra
 
 Our GitHub repository will contain the raw and cleaned data, source and license information, a data dictionary, quality checks, and instructions for reproducing the workflow.
 
-## Team Roles
+## Team Roles and Descriptions
 #### Sri - Raw Data and Licensing: Download the three indicator datasets, document sources and licensing conditions, and profile data structure and overall coverage
 #### Belle - Data Cleaning: Assess data quality, standardize fields and data types, reshape the datasets, and document decisions about missing values and duplicate records
 #### Lucia - Statistical Analysis: Document the datasets, contribute to integration and validation, calculate descriptive statistics, and analyze relationships among the indicators
