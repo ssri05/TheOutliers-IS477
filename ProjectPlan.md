@@ -36,6 +36,48 @@ Each integrated record will represent one country in one year. We will use descr
 Because the study covers a short period, the findings will describe the selected countries and years rather than establish long-term or causal relationships. Unpublished or missing observations, including any unavailable 2026 values, will remain missing and will not be treated as zero.
 
 ## Datasets - Lucia
+Data Sources 
+
+All three datasets contain annual country-level indicators from the World Bank’s World Development Indicators (WDI) and licensed under CC BY-4.0. Each indicator comes from a different original producer. We use data for the United States, Canada, the United Kingdom, Germany, and Japan, identified by World Bank country code (USA, CAN, GBR, DEU, JPN). 
+
+
+1. GDP growth (annual %)  
+
+Source: Country official statistics from national statistical organizations and/or central banks, OECD National Accounts data files, and World Bank staff estimates. 
+
+Definition: Percentage change over the previous year of GDP at constant prices (base year 2015) in US dollars. 
+
+Role: Measures economic growth for the cross-country comparison and for its relationship with unemployment. 
+
+Access: https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG 
+
+ 
+2. Unemployment, total (% of total labor force)  
+
+Source: ILO Modelled Estimates database (ILOEST), International Labour Organization, published through ILOSTAT. 
+
+Definition: Share of the labor force that is without work but available for and seeking employment. 
+
+Role: Measures labor-market conditions and is the common comparison variable in the relationship questions. 
+
+Access: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS 
+ 
+
+3. Inflation, consumer prices (annual %) 
+
+Source: International Financial Statistics database, International Monetary Fund (IMF). 
+
+Definition: Annual percentage change in the cost to the average consumer of acquiring a basket of goods and services, as measured by the consumer price index. 
+
+Role: Measures price pressure and is compared across countries and against unemployment. 
+
+Access: https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG 
+
+ 
+
+Structure: Each dataset is a CSV file with one row per country or economy (266 rows) and one column per year from 1960 to 2025. Rows are identified by Country Name, Country Code, Indicator Name, and Indicator Code, and the year columns hold the indicator values. If we were to reshape and join on country code and year, each record would represent one country in one year. 
+
+Coverage: The files contain values from 1960 through 2025. We will use 2023-2025 for the five study countries (USA, CAN, GBR, DEU, JPN). In that window, GDP growth and unemployment each have all 15 country-year observations. Inflation has 14, because no 2025 value is published for the United States. 
 ## Timeline - Sri
 | Action Item | Description | Deadline | Owner |
 |---|---|---|---|
