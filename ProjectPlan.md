@@ -19,5 +19,5 @@
 |8. Visualization and Modeling|turning conclusions in visual aids to help see trends|Week 11| Yuxing|
 |9. Final Report and Conclusion|documentation of findings and final project submission|Week 11| All|
 ## Constraints - Sri
-One constraint may be that smaller countries could have gaps in data which would affect the cleaning process and reduce the sample size for some statistics. Additionally, some of the countries are grouped together under different regions which can cause overlap in the data and double count them when drawing conclusions. Lastly, our conclusion will only result in a statement about association since we cannot prove any causal relationships.
+One constraint may be that smaller countries could have gaps in data which would affect the cleaning process and reduce the sample size for some statistics. Additionally, some of the countries are grouped together under different regions which can cause overlap in the data and double count them when drawing conclusions. Lastly, our conclusion will only be based off of limited data since Unemployment and GDP growth is limited to 2023 onwards but Inflation data exists from the 1960s onwards. It will also be difficult to prove a causal relationship and we may only be able to conclude an association.
 ## Gaps - Belle
