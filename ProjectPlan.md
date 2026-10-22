@@ -1,12 +1,12 @@
 # Project Plan
-## Overview
+## Overview - Yuxing
 ## Team Roles
 #### Sri - Raw data and Licensing
 #### Belle - Cleaning Data
 #### Lucia - Statistical Analysis
 #### Yuxing - Modeling and Visualization
-## Research/Business Question
-## Datasets
-## Timeline
-## Constraints
-## Gaps
+## Research/Business Question - Yuxing
+## Datasets - Sri
+## Timeline - Sri
+## Constraints - Lucia
+## Gaps - Belle
