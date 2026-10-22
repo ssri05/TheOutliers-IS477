@@ -37,7 +37,7 @@ The proposed countries and years are subject to confirmation after initial data 
 ## Timeline - Sri
 | Action Item | Description | Deadline | Owner |
 |---|---|---|---|
-|1. Finalize Plan and Timeline|Establish research question and finalize datasets|Week 9| All|
+|1. Finalize Plan and Timeline|establish research question and finalize datasets|Week 9| All|
 |2. Data Acquisition|downloading the data in proper CSV format|Week 9| Sri|
 |3. Initial Data Analysis|accounting for all variables, data structure, and initial profiling|Week 10| Sri and Belle|
 |4. Cleaning and Reshaping|cleaning up missing values or incomplete data|Week 10| Belle|
