@@ -11,23 +11,22 @@ Using Python and pandas, we will calculate descriptive statistics and create gra
 Our GitHub repository will contain the raw and cleaned data, source and license information, a data dictionary, quality checks, and instructions for reproducing the workflow.
 
 ## Team Roles
-
-- **Sri — Raw Data and Licensing:** Acquire the three indicator datasets, preserve raw files, document sources and licensing conditions, calculate checksums, and profile data structure and coverage.
-- **Belle — Data Cleaning:** Assess data quality, standardize fields and data types, reshape the datasets, and document decisions about missing values and duplicate records.
-- **Lucia — Statistical Analysis:** Document the datasets, contribute to integration and validation, calculate descriptive statistics, and analyze relationships among the indicators.
-- **Yuxing — Modeling and Visualization:** Develop the project overview and research questions, create trend and comparison visualizations, and conduct exploratory modeling where supported by the available data.
-- **All Members:** Review integration and quality assessment results, document their contributions, and contribute to the final report and reproducibility checks.
+#### Sri - Raw Data and Licensing: Download the three indicator datasets, document sources and licensing conditions, and profile data structure and overall coverage
+#### Belle - Data Cleaning: Assess data quality, standardize fields and data types, reshape the datasets, and document decisions about missing values and duplicate records
+#### Lucia - Statistical Analysis: Document the datasets, contribute to integration and validation, calculate descriptive statistics, and analyze relationships among the indicators
+#### Yuxing - Modeling and Visualization: Develop the project overview and research questions, create trend and comparison visualizations, and conduct exploratory modeling where supported by the available data
+#### All Members - Review assessment results, document their contributions, and contribute to the final report and conclusion
 
 
 ## Research/Business Question - Yuxing
 
 Our main research question is:
 
-**How do GDP growth, unemployment, and consumer price inflation compare across the United States, Canada, the United Kingdom, Germany, and Japan during the available years within 2023–2026, and how does the United States compare with the other four countries?**
+**How do GDP growth, unemployment, and consumer price inflation compare across the United States, Canada, the United Kingdom, Germany, and Japan during the available years within 2000-2026, and how does the United States compare with the other four countries?**
 
-We will address three supporting questions:
+We will address the following relevant questions as well:
 
-1. How do GDP growth, unemployment, and inflation change in the United States during the available years?
+1. How do GDP growth, unemployment, and inflation change in the U.S. during the available years?
 2. In years with comparable data, which countries have higher or lower GDP growth, unemployment, and inflation?
 3. Across the available country-year observations, what patterns appear between GDP growth and unemployment, and between inflation and unemployment?
 
@@ -93,7 +92,7 @@ Coverage: The files contain values from 1960 through 2025. We will use 2023-2025
 One constraint may be that smaller countries could have gaps in data which would affect the cleaning process and reduce the sample size for some statistics. Additionally, some of the countries are grouped together under different regions which can cause overlap in the data and double count them when drawing conclusions. Lastly, our conclusion will only be based off of limited data since Unemployment and GDP growth is limited to 2023 onwards but Inflation data exists from the 1960s onwards. It will also be difficult to prove a causal relationship and we may only be able to conclude an association.
 ## Gaps - Belle
 There are several areas in our research plan that require additional input:
-1. Data availability and final time period: The proposed analysis covers 2000–2024, but the final time period will depend on whether all three indicators have sufficient and consistent observations across the five selected countries.
+1. Data availability and final time period: The proposed analysis covers 2000–2026, but the final time period will depend on whether all three indicators have sufficient and consistent observations across the five selected countries.
 2. Missing data treatment: We still need to determine the extent of missing observations for each country and indicator. After After profiling the datasets, we will decide whether incomplete country-year records should be excluded from specific analyses or retained when the available indicators can still be used.
 3. Cross-country comparability: Although the World Bank provides standardized indicators, differences in economic conditions and measurement across countries may affect direct comparisons. We need to confirm that the selected indicators and their definitions are sufficiently consistent across the five countries and over time.
 4. Treatment of major economic events: Events such as financial crisis and the COVID-19 pandemic may strongly influence GDP growth, inflation, and unemployment. We need to decide whether these periods should be identified separately in the analysis or primarily discussed when interpreting unusual trends and results.
