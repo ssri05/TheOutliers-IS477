@@ -1,7 +1,7 @@
 # Project Plan
 ## Overview - Yuxing
 ## Team Roles
-#### Sri - Raw data and Licensing
+#### Sri - Raw data and Licensing: Download indicators and make note of licenses and sources; Account for data structure and profiling
 #### Belle - Cleaning Data
 #### Lucia - Statistical Analysis
 #### Yuxing - Modeling and Visualization
@@ -10,7 +10,7 @@
 ## Timeline - Sri
 | Action Item | Description | Deadline | Owner |
 |---|---|---|---|
-|1. Finalize Plan and Timeline||Week 9| All|
+|1. Finalize Plan and Timeline|Establish research question and finalize datasets|Week 9| All|
 |2. Data Acquisition|downloading the data in proper CSV format|Week 9| Sri|
 |3. Initial Data Analysis|accounting for all variables, data structure, and initial profiling|Week 10| Sri and Belle|
 |4. Cleaning and Reshaping|cleaning up missing values or incomplete data|Week 10| Belle|
