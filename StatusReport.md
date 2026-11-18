@@ -1,6 +1,7 @@
 # Interim Status Report
 
 ## Task Updates
+We have finalized our plan and made changes to our timeline. We will be continuing with our research question and have downloaded the necessary data. We have also completed basic analysis accounting for all variables and initial profiling. We have also cleaned the data and prepared it for exploratory analysis.
 
 ## Updated Timeline
 | Action Item | Description | Deadline | Owner |
@@ -20,3 +21,7 @@
 ## Challenges
 
 ## Member Contributions
+1. Sri: I downloaded the 3 indicator datasets (GDP, Unemployment, and Inflation) as CSV files and added them to the project repository. I loaded each one into a pandas DF in a Jupyter notebook and did some basic analysis. I recorded the number of rows and columns, the variables in each file, and whether all five of the countries we want to study are present. I also removed all columns except for the basic ones (country name/code and indicator name/code) as well as the years 2000-2025 columns. I displayed the first five rows of each dataset so my teammates could visualize the changes as well. I then pushed to Github so we could move forward with more cleaning and analysis.
+2. Belle:
+3. Yuxing:
+4. Lucia:
