@@ -1,0 +1,11 @@
+relationship,sample,n,pearson_r,pearson_p,spearman_rho,within_country_r
+GDP growth vs unemployment rate (levels),all years,130,-0.0281,0.7509,0.0866,-0.1347
+GDP growth vs unemployment rate (levels),excluding 2020-2021,120,-0.0305,0.7413,0.1199,-0.1591
+GDP growth vs change in unemployment rate,all years,125,-0.6038,0.0,-0.548,-0.637
+GDP growth vs change in unemployment rate,excluding 2020-2021,115,-0.6135,0.0,-0.5143,-0.6646
+Inflation vs unemployment rate (levels),all years,129,-0.086,0.3326,-0.0127,-0.359
+Inflation vs unemployment rate (levels),excluding 2020-2021,119,-0.117,0.2052,-0.0476,-0.3768
+Inflation vs change in unemployment rate,all years,124,-0.2793,0.0017,-0.1026,-0.33
+Inflation vs change in unemployment rate,excluding 2020-2021,114,-0.2311,0.0134,0.0076,-0.2682
+GDP growth vs inflation,all years,129,0.298,0.0006,0.2473,0.2412
+GDP growth vs inflation,excluding 2020-2021,119,0.245,0.0072,0.1556,0.1492

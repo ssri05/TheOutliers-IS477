@@ -1,0 +1,76 @@
+period,country_code,indicator,n_years,mean
+2000-2007 pre-crisis,USA,GDP_Growth,8,2.7061
+2000-2007 pre-crisis,USA,Unemployment,8,5.0441
+2000-2007 pre-crisis,USA,Inflation,8,2.776
+2000-2007 pre-crisis,CAN,GDP_Growth,8,2.8512
+2000-2007 pre-crisis,CAN,Unemployment,8,6.9838
+2000-2007 pre-crisis,CAN,Inflation,8,2.3091
+2000-2007 pre-crisis,GBR,GDP_Growth,8,2.76
+2000-2007 pre-crisis,GBR,Unemployment,8,5.0559
+2000-2007 pre-crisis,GBR,Inflation,8,1.7417
+2000-2007 pre-crisis,DEU,GDP_Growth,8,1.5697
+2000-2007 pre-crisis,DEU,Unemployment,8,9.36
+2000-2007 pre-crisis,DEU,Inflation,8,1.6209
+2000-2007 pre-crisis,JPN,GDP_Growth,8,1.4955
+2000-2007 pre-crisis,JPN,Unemployment,8,4.7081
+2000-2007 pre-crisis,JPN,Inflation,8,-0.3223
+2008-2010 financial crisis,USA,GDP_Growth,3,0.0774
+2008-2010 financial crisis,USA,Unemployment,3,8.2237
+2008-2010 financial crisis,USA,Inflation,3,1.7079
+2008-2010 financial crisis,CAN,GDP_Growth,3,0.3904
+2008-2010 financial crisis,CAN,Unemployment,3,7.6407
+2008-2010 financial crisis,CAN,Inflation,3,1.4822
+2008-2010 financial crisis,GBR,GDP_Growth,3,-0.7921
+2008-2010 financial crisis,GBR,Unemployment,3,7.1347
+2008-2010 financial crisis,GBR,Inflation,3,2.6586
+2008-2010 financial crisis,DEU,GDP_Growth,3,-0.174
+2008-2010 financial crisis,DEU,Unemployment,3,7.477
+2008-2010 financial crisis,DEU,Inflation,3,1.3483
+2008-2010 financial crisis,JPN,GDP_Growth,3,-0.9887
+2008-2010 financial crisis,JPN,Unemployment,3,4.724
+2008-2010 financial crisis,JPN,Inflation,3,-0.2337
+2011-2019 recovery,USA,GDP_Growth,9,2.3631
+2011-2019 recovery,USA,Unemployment,9,5.8478
+2011-2019 recovery,USA,Inflation,9,1.7865
+2011-2019 recovery,CAN,GDP_Growth,9,2.1629
+2011-2019 recovery,CAN,Unemployment,9,6.7923
+2011-2019 recovery,CAN,Inflation,9,1.7379
+2011-2019 recovery,GBR,GDP_Growth,9,1.9373
+2011-2019 recovery,GBR,Unemployment,9,5.932
+2011-2019 recovery,GBR,Inflation,9,2.0153
+2011-2019 recovery,DEU,GDP_Growth,9,1.7328
+2011-2019 recovery,DEU,Unemployment,9,4.5198
+2011-2019 recovery,DEU,Inflation,9,1.3543
+2011-2019 recovery,JPN,GDP_Growth,9,1.0006
+2011-2019 recovery,JPN,Unemployment,9,3.4102
+2011-2019 recovery,JPN,Inflation,9,0.5986
+2020-2021 COVID-19,USA,GDP_Growth,2,2.0353
+2020-2021 COVID-19,USA,Unemployment,2,6.702
+2020-2021 COVID-19,USA,Inflation,2,2.9657
+2020-2021 COVID-19,CAN,GDP_Growth,2,0.4561
+2020-2021 COVID-19,CAN,Unemployment,2,8.592
+2020-2021 COVID-19,CAN,Inflation,2,2.0561
+2020-2021 COVID-19,GBR,GDP_Growth,2,-0.7524
+2020-2021 COVID-19,GBR,Unemployment,2,4.668
+2020-2021 COVID-19,GBR,Inflation,2,1.7539
+2020-2021 COVID-19,DEU,GDP_Growth,2,-0.111
+2020-2021 COVID-19,DEU,Unemployment,2,3.7375
+2020-2021 COVID-19,DEU,Inflation,2,1.6058
+2020-2021 COVID-19,JPN,GDP_Growth,2,-0.3595
+2020-2021 COVID-19,JPN,Unemployment,2,2.8085
+2020-2021 COVID-19,JPN,Inflation,2,-0.1292
+2022-2025 post-COVID,USA,GDP_Growth,4,2.6033
+2022-2025 post-COVID,USA,Unemployment,4,3.877
+2022-2025 post-COVID,USA,Inflation,3,5.0229
+2022-2025 post-COVID,CAN,GDP_Growth,4,2.6094
+2022-2025 post-COVID,CAN,Unemployment,4,5.988
+2022-2025 post-COVID,CAN,Inflation,4,3.7839
+2022-2025 post-COVID,GBR,GDP_Growth,4,1.9725
+2022-2025 post-COVID,GBR,Unemployment,4,4.225
+2022-2025 post-COVID,GBR,Inflation,4,5.4677
+2022-2025 post-COVID,DEU,GDP_Growth,4,0.1708
+2022-2025 post-COVID,DEU,Unemployment,4,3.3298
+2022-2025 post-COVID,DEU,Inflation,4,4.3118
+2022-2025 post-COVID,JPN,GDP_Growth,4,0.7514
+2022-2025 post-COVID,JPN,Unemployment,4,2.5413
+2022-2025 post-COVID,JPN,Inflation,4,2.9192
